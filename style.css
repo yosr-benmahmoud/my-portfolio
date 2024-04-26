@@ -1,0 +1,226 @@
+*
+{
+  margin: 0;
+  font-size: 1vw;
+  font-family: 'Poppins', sans-serif;
+  
+}
+ li{
+    color: #354B5E !important;
+}
+header {
+  width: 100vw;
+  height: auto;
+  background-color: #F2F2F2;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  z-index: 100;
+}
+.categories {
+  width: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.link {
+  color: #353535;
+  font-size: 13pt;
+  font-weight: 600;
+  padding: 0% 4%;
+  cursor: pointer;
+}
+
+.link::after {
+  content: '';
+  width: 0%;
+  height: 3px;
+  background-color: #F25D07;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+
+.link:hover::after {
+  width: 100%;
+}
+
+.name {
+  color: #6C1ED9;
+  font-size: 26pt;
+  font-weight: 700;
+  margin: 3px 0px;
+
+}
+.container h2
+{
+  color: #A6037A;
+}
+/*.container-photo
+{
+  margin-top: 5%;
+  width: 70%;
+  align-items: center; 
+  justify-content: center;
+}
+img 
+{
+  margin-left: 5%;
+  width: 60vh;
+  border-radius: 50%;
+  border:5px solid #353535;
+  box-shadow: 1px 4px 12px #354B5E;
+}
+.container-photo h2
+{
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic;
+  font-size: 2em;
+
+}
+.container-photo p
+{
+  font-family: 'Libre Baskerville', serif;
+  font-size: 2em;
+  margin-left: 5%;
+  margin-top: 8%;
+}*/
+img 
+{
+  margin-left: 5%;
+  margin: 3%;
+  width: 25vw;
+  height: 30vw;
+  border-radius: 5%;
+  box-shadow: 15px 15px 5px #6C1ED9;
+}
+.text-container {
+  display: block; /* New property */
+  margin-left: 5%; 
+  margin-bottom: 6%;
+}
+
+.text-container h2 {
+  color: #6c1ed9e0;
+  margin-top: 8%;
+  font-weight: 700;
+  margin-left: 20%;
+  font-size: 1.75rem;
+  margin-bottom: 6%;
+}
+.text-container h3
+{
+  font-size: 1.65rem;
+  color: #A93BD9;
+  margin-left: 25%;
+  margin-bottom: 6%;
+}
+
+.text-container p {
+  color: rgba(128, 128, 128, 0.721);
+  
+  margin: 0 1.7vw;
+  font-weight: 700;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-bottom: 6%;
+}
+.icon-wrapper {
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  background-color: #FBFBFB;
+  margin-left: 10px; /* Spacing between the text and the icon */
+  vertical-align: middle; /* Align the icon with the text */
+}
+
+.bi {
+  margin-right: 0;
+  height: 1.75rem;
+  border-radius: 40%;
+  display: block; /* Makes the SVG a block inside its container to center it */
+  /* Center the SVG inside the circle */
+}
+
+.btn {
+    background-color:#FBFBFB  ;
+    color:  #6C1ED9!important;
+    -webkit-border-radius: 17;
+    -moz-border-radius: 17;
+    border-radius: 17px;
+    box-shadow: 1px 4px 12px #6c1ed9d3;
+    font-family: Arial;
+    font-size: 20px;
+    padding: 11px 20px 10px 20px;
+    text-decoration: none;
+    margin-left: 6%;
+    margin-bottom: 3%;
+  }
+  
+  .btn:hover {
+    background: #3cfc6c;
+    background-image: -webkit-linear-gradient(top, #3cfc6c, #34d9d3);
+    background-image: -moz-linear-gradient(top, #3cfc6c, #34d9d3);
+    background-image: -ms-linear-gradient(top, #3cfc6c, #34d9d3);
+    background-image: -o-linear-gradient(top, #3cfc6c, #34d9d3);
+    background-image: linear-gradient(to bottom, #3cfc6c, #34d9d3);
+    text-decoration: none;
+  }
+  .grid-container
+  {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .grid-item
+  {
+    box-shadow: 5px 5px 30px #888888, -5px -5px 10px #aaa;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    gap: 1px;
+    width: 450px;
+    height: 500px;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius:5%;
+    box-shadow: 15px 15px 5px #6c1ed95e;
+  }
+  .grid-item h1
+  {
+    font-size:50px; 
+    color: #6C1ED9; 
+    margin-right: 200px;
+    text-align: left;
+    margin-left: 30px;
+  }
+  .grid-item h2
+  {
+    color: #A93BD9; 
+
+  }
+ .grid-item ul li
+  {
+    margin-top:30px ;
+    font-size: 20px;
+    color: black;
+    margin-left: 20px;
+    text-align: left; 
+
+  }
+  .btn3
+  {
+    color: white;
+    border-radius: 4px;
+    font-size: 27px;
+    margin-right: 0%;
+    background-color: #A6037A;
+    border: #F29F05;
+    margin-left: 20px;
+
+  }
+  .btn4
+  {
+    margin-top: 20px;
+  }
